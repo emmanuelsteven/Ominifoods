@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Ominifoodst</title>
@@ -28,6 +29,10 @@
           <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -41,7 +46,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs. We have delivered 250,000+ meals last year!
             </p>
-            <a href="#" class="btn btn-full ,margin-right-sm"
+            <a href="#" class="btn btn-full margin-right-sm"
               >start eating well</a
             >
             <a href="#" class="btn btn-outline">learn more &darr; </a>
@@ -157,7 +162,8 @@
             </h2>
         </div>
         <div class="container grid grid-3-cols margin-bottom-md">
-          <div class="meal"><img src="img/meals/meal-1.jpg" alt="Japanese Gyozas" class="meal-img">
+          <div class="meal">
+            <img src="img/meals/meal-1.jpg" alt="Japanese Gyozas" class="meal-img">
             <div class="meal-content">
             <div class="meal-tags">
               <span class="tag tag-vegeterian">Vegeterian</span>
@@ -172,7 +178,7 @@
           </div>
           </div>
           <div class="meal">
-            <div class="meal"><img src="img/meals/meal-2.jpg" alt="Avocado Salad" class="meal-img">
+            <img src="img/meals/meal-2.jpg" alt="Avocado Salad" class="meal-img">
               <div class="meal-content">
               <div class="meal-tags">
                 <span class="tag tag-vegan">Vegan</span>
@@ -186,7 +192,7 @@
                 <li class="meal-attribute"><ion-icon name="star-outline" class="meal-icon"></ion-icon> <span> <strong>4.8</strong>rating (441) </span></li>   
               </ul>
             </div>
-            </div>
+            <!-- </div> -->
           </div>
           <div class="diets">
             <h3 class="heading-tertiary"> Works with any diet</h3>
@@ -463,8 +469,6 @@
           <li>
             <a href="#" class="footer-link">Privacy & terms </a>
           </li>
-          <!-- <li><a href="footer-link">
-            Android App</a></li> -->
       </ul>
     </nav>
   </div>
